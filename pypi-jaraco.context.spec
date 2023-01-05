@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.context
 Version  : 4.2.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/79/96/9f0b1574ccced26cd7785c05623938ef5b217a96ccd44f89980f2d6fa8da/jaraco.context-4.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/79/96/9f0b1574ccced26cd7785c05623938ef5b217a96ccd44f89980f2d6fa8da/jaraco.context-4.2.0.tar.gz
 Summary  : Context managers by jaraco
