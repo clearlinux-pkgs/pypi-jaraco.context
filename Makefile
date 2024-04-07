@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jaraco.context
-URL = https://files.pythonhosted.org/packages/93/71/c1e4affd6eeb9f3d869c7a2b46f2efc36777fc07c67b591ae77bb8861495/jaraco.context-5.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/40/7f/376e94afc5daf362bc8001f48472789d424d3fdf465c0b86df4c318ba1de/jaraco.context-5.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
