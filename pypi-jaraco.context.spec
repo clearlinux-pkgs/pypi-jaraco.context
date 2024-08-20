@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-jaraco.context
-Version  : 6.0.0
-Release  : 23
-URL      : https://files.pythonhosted.org/packages/45/ae/0c1bf682ffeed5c39fbca6fd5878f262e635a7eaafd6f8c482da333f2639/jaraco_context-6.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/45/ae/0c1bf682ffeed5c39fbca6fd5878f262e635a7eaafd6f8c482da333f2639/jaraco_context-6.0.0.tar.gz
+Version  : 6.0.1
+Release  : 24
+URL      : https://files.pythonhosted.org/packages/df/ad/f3777b81bf0b6e7bc7514a1656d3e637b2e8e15fab2ce3235730b3e7a4e6/jaraco_context-6.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/df/ad/f3777b81bf0b6e7bc7514a1656d3e637b2e8e15fab2ce3235730b3e7a4e6/jaraco_context-6.0.1.tar.gz
 Summary  : Useful decorators and context managers
 Group    : Development/Tools
 License  : MIT
@@ -60,10 +60,10 @@ python3 components for the pypi-jaraco.context package.
 
 
 %prep
-%setup -q -n jaraco_context-6.0.0
-cd %{_builddir}/jaraco_context-6.0.0
+%setup -q -n jaraco_context-6.0.1
+cd %{_builddir}/jaraco_context-6.0.1
 pushd ..
-cp -a jaraco_context-6.0.0 buildavx2
+cp -a jaraco_context-6.0.1 buildavx2
 popd
 
 %build
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724119182
+export SOURCE_DATE_EPOCH=1724164407
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
